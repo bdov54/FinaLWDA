@@ -42,3 +42,11 @@ artifacts/**/reports/threshold_search_val.csv
 artifacts/**/comparison/model_comparison.csv
 artifacts/**/comparison/model_comparison.json
 artifacts/**/comparison/model_comparison_dashboard_ready.json
+
+# Debug scripts
+test_*.py
+debug_*.py
+check_and_update.py
+quick_test.py
+full_test.py
+My_client/app.py
