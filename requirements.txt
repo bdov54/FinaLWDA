@@ -1,7 +1,9 @@
+streamlit
 python-dotenv==1.0.1
 requests
 apify-client
-pymongo[srv]==4.8.0
+pymongo==4.8.0
+plotly
 
 pandas==2.2.2
 numpy==1.26.4
@@ -17,5 +19,3 @@ torch>=2.2.0
 matplotlib==3.9.2
 
 google-genai
-plotly
-streamlit
