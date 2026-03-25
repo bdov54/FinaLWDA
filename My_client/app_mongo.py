@@ -14,6 +14,8 @@ import streamlit as st
 # -----------------------------------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
 
+st.write("Streamlit OK")
+st.write("Plotly version:", plotly.__version__)
 
 def find_project_root(start: Path) -> Path:
     for p in [start, *start.parents]:
