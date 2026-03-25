@@ -1,0 +1,44 @@
+venv/
+.venv/
+env/
+.env
+.env.*
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+logs/
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ignore all safetensors everywhere
+*.safetensors
+
+# checkpoints
+artifacts/**/trainer_out/
+artifacts/**/checkpoint-*/
+artifacts/**/optimizer.pt
+artifacts/**/scheduler.pt
+artifacts/**/rng_state.pth
+artifacts/**/training_args.bin
+
+# charts / generated comparison images
+artifacts/**/charts/
+artifacts/**/comparison/*.png
+artifacts/**/tuning_leaderboard_val_f1.png
+
+# generated exports
+artifacts/**/test_predictions.csv
+artifacts/**/val_predictions.csv
+artifacts/**/splits/*.csv
+
+# optional reports not needed by current app loading
+artifacts/**/reports/aspect_error_summary.csv
+artifacts/**/reports/aspect_error_summary.json
+artifacts/**/reports/confidence_summary.json
+artifacts/**/reports/threshold_search_val.csv
+
+# optional comparison exports
+artifacts/**/comparison/model_comparison.csv
+artifacts/**/comparison/model_comparison.json
+artifacts/**/comparison/model_comparison_dashboard_ready.json

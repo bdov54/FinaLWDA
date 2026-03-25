@@ -1,0 +1,127 @@
+{
+  "best_metric": 0.7872741260948473,
+  "best_model_checkpoint": "artifacts/model_batches/b123v45_tuned_20260316_082735/models/mBERT/trials/mbert_t002_len80_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03/trainer_out/checkpoint-1296",
+  "epoch": 5.0,
+  "global_step": 1620,
+  "log_history": [
+    {
+      "loss": 0.5828,
+      "grad_norm": 12.488560676574707,
+      "learning_rate": 8.515111695137977e-06,
+      "epoch": 1.0,
+      "step": 324
+    },
+    {
+      "eval_loss": 0.47661641240119934,
+      "eval_accuracy": 0.8589511754068716,
+      "eval_precision_macro": 0.8609762927011386,
+      "eval_recall_macro": 0.7156518345042935,
+      "eval_f1_macro": 0.7542054157549234,
+      "eval_precision_weighted": 0.8595284059895605,
+      "eval_recall_weighted": 0.8589511754068716,
+      "eval_f1_weighted": 0.8415419078746919,
+      "eval_runtime": 0.8999,
+      "eval_samples_per_second": 614.529,
+      "eval_steps_per_second": 38.894,
+      "epoch": 1.0,
+      "step": 324
+    },
+    {
+      "loss": 0.4871,
+      "grad_norm": 8.620020866394043,
+      "learning_rate": 6.386333771353482e-06,
+      "epoch": 2.0,
+      "step": 648
+    },
+    {
+      "eval_loss": 0.46727484464645386,
+      "eval_accuracy": 0.8517179023508138,
+      "eval_precision_macro": 0.795672076570953,
+      "eval_recall_macro": 0.7641165755919854,
+      "eval_f1_macro": 0.7777679761624716,
+      "eval_precision_weighted": 0.8457308111695824,
+      "eval_recall_weighted": 0.8517179023508138,
+      "eval_f1_weighted": 0.8475451792430075,
+      "eval_runtime": 1.3304,
+      "eval_samples_per_second": 415.652,
+      "eval_steps_per_second": 26.307,
+      "epoch": 2.0,
+      "step": 648
+    },
+    {
+      "loss": 0.3999,
+      "grad_norm": 5.479870796203613,
+      "learning_rate": 4.257555847568989e-06,
+      "epoch": 3.0,
+      "step": 972
+    },
+    {
+      "eval_loss": 0.5539948344230652,
+      "eval_accuracy": 0.8444846292947559,
+      "eval_precision_macro": 0.7833470141596552,
+      "eval_recall_macro": 0.7566354410616706,
+      "eval_f1_macro": 0.7683713228131697,
+      "eval_precision_weighted": 0.8386095431556472,
+      "eval_recall_weighted": 0.8444846292947559,
+      "eval_f1_weighted": 0.8406429482105118,
+      "eval_runtime": 0.8897,
+      "eval_samples_per_second": 621.586,
+      "eval_steps_per_second": 39.341,
+      "epoch": 3.0,
+      "step": 972
+    },
+    {
+      "loss": 0.3205,
+      "grad_norm": 0.36257869005203247,
+      "learning_rate": 2.1287779237844943e-06,
+      "epoch": 4.0,
+      "step": 1296
+    },
+    {
+      "eval_loss": 0.6091487407684326,
+      "eval_accuracy": 0.8589511754068716,
+      "eval_precision_macro": 0.8083977037693639,
+      "eval_recall_macro": 0.7715977101223004,
+      "eval_f1_macro": 0.7872741260948473,
+      "eval_precision_weighted": 0.853021149408337,
+      "eval_recall_weighted": 0.8589511754068716,
+      "eval_f1_weighted": 0.8544853156366521,
+      "eval_runtime": 0.8966,
+      "eval_samples_per_second": 616.789,
+      "eval_steps_per_second": 39.037,
+      "epoch": 4.0,
+      "step": 1296
+    },
+    {
+      "loss": 0.252,
+      "grad_norm": 108.92240905761719,
+      "learning_rate": 0.0,
+      "epoch": 5.0,
+      "step": 1620
+    },
+    {
+      "eval_loss": 0.6574748754501343,
+      "eval_accuracy": 0.8553345388788427,
+      "eval_precision_macro": 0.8014253017062005,
+      "eval_recall_macro": 0.7692557897475931,
+      "eval_f1_macro": 0.7831882694268015,
+      "eval_precision_weighted": 0.8495756886170768,
+      "eval_recall_weighted": 0.8553345388788427,
+      "eval_f1_weighted": 0.8512635895053732,
+      "eval_runtime": 1.0556,
+      "eval_samples_per_second": 523.885,
+      "eval_steps_per_second": 33.157,
+      "epoch": 5.0,
+      "step": 1620
+    },
+    {
+      "train_runtime": 273.1978,
+      "train_samples_per_second": 47.42,
+      "train_steps_per_second": 5.93,
+      "total_flos": 203573956864320.0,
+      "train_loss": 0.40846103621117863,
+      "epoch": 5.0,
+      "step": 1620
+    }
+  ]
+}

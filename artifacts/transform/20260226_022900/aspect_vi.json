@@ -1,0 +1,14 @@
+{
+  "queue_waiting": "Xếp hàng & chờ đợi",
+  "checkin_boarding": "Check-in & lên máy bay",
+  "immigration_customs": "Nhập cảnh & hải quan",
+  "staff_service": "Nhân viên & phục vụ",
+  "transport_parking": "Di chuyển & bãi xe",
+  "security_check": "An ninh & soi chiếu",
+  "price_value": "Giá cả & chặt chém",
+  "baggage": "Hành lý & băng chuyền",
+  "cleanliness_toilets": "Vệ sinh & nhà vệ sinh",
+  "food_beverage": "Đồ ăn & thức uống",
+  "signage_information": "Biển chỉ dẫn & thông tin",
+  "wifi_internet": "WiFi & Internet"
+}

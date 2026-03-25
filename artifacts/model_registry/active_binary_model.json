@@ -1,0 +1,13 @@
+{
+  "task": "binary_comment_sentence_sentiment",
+  "run_dir": "artifacts\\model_batches\\b123v45_tuned_20260316_082735\\models\\XLM-R\\trials\\xlmr_t008_len80_ep3_lr2e-05_bs8_ga1_cwnone_ls0.0",
+  "model_dir": "artifacts\\model_batches\\b123v45_tuned_20260316_082735\\models\\XLM-R\\trials\\xlmr_t008_len80_ep3_lr2e-05_bs8_ga1_cwnone_ls0.0\\model",
+  "tokenizer_dir": "artifacts\\model_batches\\b123v45_tuned_20260316_082735\\models\\XLM-R\\trials\\xlmr_t008_len80_ep3_lr2e-05_bs8_ga1_cwnone_ls0.0\\tokenizer",
+  "model_name": "xlm-roberta-base",
+  "display_name": "XLM-R",
+  "best_threshold": 0.62,
+  "max_len": 80,
+  "source_trial_summary": "artifacts\\model_batches\\b123v45_tuned_20260316_082735\\models\\XLM-R\\trials\\xlmr_t008_len80_ep3_lr2e-05_bs8_ga1_cwnone_ls0.0\\trial_summary.json",
+  "source_training_config": "artifacts\\model_batches\\b123v45_tuned_20260316_082735\\models\\XLM-R\\trials\\xlmr_t008_len80_ep3_lr2e-05_bs8_ga1_cwnone_ls0.0\\training_config.json",
+  "activated_at": "2026-03-17T01:02:13.572976+00:00"
+}

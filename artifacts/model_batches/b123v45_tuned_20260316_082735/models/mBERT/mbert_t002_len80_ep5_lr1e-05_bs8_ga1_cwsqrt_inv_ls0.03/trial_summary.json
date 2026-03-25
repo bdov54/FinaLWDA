@@ -1,0 +1,56 @@
+{
+  "trial_name": "mbert_t002_len80_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+  "display_name": "mBERT",
+  "model_name": "bert-base-multilingual-cased",
+  "run_dir": "artifacts/model_batches/b123v45_tuned_20260316_082735/models/mBERT/trials/mbert_t002_len80_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+  "trial_config": {
+    "max_len": 80,
+    "lr": 1e-05,
+    "epochs": 5,
+    "train_bs": 8,
+    "eval_bs": 16,
+    "grad_accum": 1,
+    "warmup_ratio": 0.06,
+    "early_stopping_patience": 2,
+    "class_weight_mode": "sqrt_inv",
+    "label_smoothing": 0.03
+  },
+  "selection_metric": 0.790663,
+  "best_threshold": 0.36,
+  "val_metrics": {
+    "val_accuracy": 0.860759,
+    "val_precision_macro": 0.810674,
+    "val_recall_macro": 0.775566,
+    "val_f1_macro": 0.790663,
+    "val_precision_weighted": 0.855145,
+    "val_recall_weighted": 0.860759,
+    "val_f1_weighted": 0.856598
+  },
+  "test_metrics": {
+    "test_accuracy": 0.828358,
+    "test_precision_macro": 0.754825,
+    "test_recall_macro": 0.690805,
+    "test_f1_macro": 0.712795,
+    "test_precision_weighted": 0.814277,
+    "test_recall_weighted": 0.828358,
+    "test_f1_weighted": 0.816122,
+    "test_runtime": 1.0727,
+    "test_samples_per_second": 499.696,
+    "test_steps_per_second": 31.697,
+    "threshold_used": 0.36
+  },
+  "train_metrics": {
+    "train_runtime": 273.1978,
+    "train_samples_per_second": 47.42,
+    "train_steps_per_second": 5.93,
+    "total_flos": 203573956864320.0,
+    "train_loss": 0.408461,
+    "epoch": 5.0
+  },
+  "best_val_metric_from_trainer": 0.787274,
+  "confidence_summary": {
+    "avg_confidence_all": 0.9416,
+    "avg_confidence_correct": 0.9468,
+    "avg_confidence_error": 0.9162
+  }
+}

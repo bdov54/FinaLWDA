@@ -1,0 +1,172 @@
+{
+  "en": {
+    "security_check": [
+      "security",
+      "security check",
+      "screening",
+      "x-ray"
+    ],
+    "immigration_customs": [
+      "immigration",
+      "passport control",
+      "customs",
+      "visa"
+    ],
+    "checkin_boarding": [
+      "check-in",
+      "check in",
+      "boarding",
+      "gate",
+      "flight",
+      "transfer",
+      "connecting flight"
+    ],
+    "queue_waiting": [
+      "queue",
+      "line",
+      "waiting",
+      "wait time",
+      "crowded"
+    ],
+    "staff_service": [
+      "staff",
+      "employee",
+      "service",
+      "rude",
+      "helpful"
+    ],
+    "cleanliness_toilets": [
+      "toilet",
+      "restroom",
+      "bathroom",
+      "clean",
+      "dirty"
+    ],
+    "price_value": [
+      "price",
+      "expensive",
+      "overpriced",
+      "cheap"
+    ],
+    "food_beverage": [
+      "food",
+      "restaurant",
+      "cafe",
+      "coffee"
+    ],
+    "wifi_internet": [
+      "wifi",
+      "wi-fi",
+      "internet",
+      "connection"
+    ],
+    "baggage": [
+      "baggage",
+      "luggage",
+      "bag",
+      "lost baggage",
+      "baggage claim"
+    ],
+    "transport_parking": [
+      "taxi",
+      "grab",
+      "bus",
+      "parking",
+      "traffic"
+    ],
+    "signage_information": [
+      "sign",
+      "signage",
+      "information",
+      "direction",
+      "wayfinding"
+    ]
+  },
+  "vi": {
+    "security_check": [
+      "an ninh",
+      "soi chiếu",
+      "kiểm tra an ninh",
+      "x-ray"
+    ],
+    "immigration_customs": [
+      "nhập cảnh",
+      "xuất cảnh",
+      "hải quan",
+      "hộ chiếu",
+      "visa"
+    ],
+    "checkin_boarding": [
+      "check-in",
+      "làm thủ tục",
+      "lên máy bay",
+      "cổng",
+      "gate",
+      "chuyến bay",
+      "nối chuyến"
+    ],
+    "queue_waiting": [
+      "xếp hàng",
+      "chờ",
+      "đợi",
+      "đông",
+      "kẹt"
+    ],
+    "staff_service": [
+      "nhân viên",
+      "thái độ",
+      "phục vụ",
+      "hỗ trợ",
+      "thô lỗ"
+    ],
+    "cleanliness_toilets": [
+      "vệ sinh",
+      "sạch",
+      "bẩn",
+      "nhà vệ sinh",
+      "toilet",
+      "wc"
+    ],
+    "price_value": [
+      "giá",
+      "đắt",
+      "rẻ",
+      "chặt chém"
+    ],
+    "food_beverage": [
+      "đồ ăn",
+      "ăn uống",
+      "quán",
+      "nhà hàng",
+      "cà phê"
+    ],
+    "wifi_internet": [
+      "wifi",
+      "internet",
+      "mạng",
+      "kết nối"
+    ],
+    "baggage": [
+      "hành lý",
+      "vali",
+      "ký gửi",
+      "thất lạc",
+      "băng chuyền"
+    ],
+    "transport_parking": [
+      "taxi",
+      "grab",
+      "xe buýt",
+      "bãi xe",
+      "gửi xe",
+      "đậu xe"
+    ],
+    "signage_information": [
+      "chỉ dẫn",
+      "biển",
+      "bảng",
+      "thông tin",
+      "hướng dẫn"
+    ]
+  }
+}

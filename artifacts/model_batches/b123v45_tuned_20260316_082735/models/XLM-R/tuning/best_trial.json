@@ -1,0 +1,51 @@
+{
+  "display_name": "XLM-R",
+  "model_name": "xlm-roberta-base",
+  "best_trial_name": "xlmr_t009_len64_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+  "best_run_dir": "artifacts/model_batches/b123v45_tuned_20260316_082735/models/XLM-R/trials/xlmr_t009_len64_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+  "best_config": {
+    "max_len": 64,
+    "lr": 1e-05,
+    "epochs": 5,
+    "train_bs": 8,
+    "eval_bs": 16,
+    "grad_accum": 1,
+    "warmup_ratio": 0.1,
+    "early_stopping_patience": 2,
+    "class_weight_mode": "sqrt_inv",
+    "label_smoothing": 0.03
+  },
+  "best_threshold": 0.5,
+  "selection_metric": 0.83387,
+  "val_metrics": {
+    "val_accuracy": 0.886076,
+    "val_precision_macro": 0.843331,
+    "val_recall_macro": 0.825527,
+    "val_f1_macro": 0.83387,
+    "val_precision_weighted": 0.883664,
+    "val_recall_weighted": 0.886076,
+    "val_f1_weighted": 0.88456
+  },
+  "test_metrics": {
+    "test_accuracy": 0.824627,
+    "test_precision_macro": 0.746589,
+    "test_recall_macro": 0.688424,
+    "test_f1_macro": 0.708851,
+    "test_precision_weighted": 0.810362,
+    "test_recall_weighted": 0.824627,
+    "test_f1_weighted": 0.812981,
+    "test_runtime": 1.8186,
+    "test_samples_per_second": 294.732,
+    "test_steps_per_second": 18.696,
+    "threshold_used": 0.5
+  },
+  "train_metrics": {
+    "train_runtime": 405.3623,
+    "train_samples_per_second": 31.959,
+    "train_steps_per_second": 3.996,
+    "total_flos": 165661298231040.0,
+    "train_loss": 0.500705,
+    "epoch": 4.0
+  },
+  "created_at": "2026-03-16T10:53:27.197589+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "processed_data_binary_123vs45_v2__bert-base-multilingual-cased": {
+    "input_collection": "processed_data_binary_123vs45_v2",
+    "display_name": "mBERT",
+    "model_name": "bert-base-multilingual-cased",
+    "best_trial_name": "mbert_t011_len80_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+    "best_run_dir": "artifacts/model_batches/b123v45_tuned_20260316_082735/models/mBERT/trials/mbert_t011_len80_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+    "best_config": {
+      "max_len": 80,
+      "lr": 1e-05,
+      "epochs": 5,
+      "train_bs": 8,
+      "eval_bs": 16,
+      "grad_accum": 1,
+      "warmup_ratio": 0.1,
+      "early_stopping_patience": 2,
+      "class_weight_mode": "sqrt_inv",
+      "label_smoothing": 0.03
+    },
+    "best_threshold": 0.36,
+    "best_val_f1_macro": 0.798873,
+    "test_f1_macro": 0.668968,
+    "updated_at": "2026-03-16T10:53:32.832896+00:00"
+  },
+  "processed_data_binary_123vs45_v2__xlm-roberta-base": {
+    "input_collection": "processed_data_binary_123vs45_v2",
+    "display_name": "XLM-R",
+    "model_name": "xlm-roberta-base",
+    "best_trial_name": "xlmr_t009_len64_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+    "best_run_dir": "artifacts/model_batches/b123v45_tuned_20260316_082735/models/XLM-R/trials/xlmr_t009_len64_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+    "best_config": {
+      "max_len": 64,
+      "lr": 1e-05,
+      "epochs": 5,
+      "train_bs": 8,
+      "eval_bs": 16,
+      "grad_accum": 1,
+      "warmup_ratio": 0.1,
+      "early_stopping_patience": 2,
+      "class_weight_mode": "sqrt_inv",
+      "label_smoothing": 0.03
+    },
+    "best_threshold": 0.5,
+    "best_val_f1_macro": 0.83387,
+    "test_f1_macro": 0.708851,
+    "updated_at": "2026-03-16T10:53:32.832958+00:00"
+  }
+}

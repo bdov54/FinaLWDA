@@ -1,0 +1,28 @@
+{
+  "display_name": "XLM-R",
+  "model_name": "xlm-roberta-base",
+  "best_trial_name": "xlmr_t009_len64_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+  "run_dir": "artifacts/model_batches/b123v45_tuned_20260316_082735/models/XLM-R/trials/xlmr_t009_len64_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+  "best_val_f1": 0.83387,
+  "best_threshold": 0.5,
+  "test_accuracy": 0.824627,
+  "test_precision_macro": 0.746589,
+  "test_recall_macro": 0.688424,
+  "test_f1_macro": 0.708851,
+  "test_f1_weighted": 0.812981,
+  "train_runtime": 405.3623,
+  "train_samples_per_second": 31.959,
+  "avg_confidence_all": 0.8804,
+  "config": {
+    "max_len": 64,
+    "lr": 1e-05,
+    "epochs": 5,
+    "train_bs": 8,
+    "eval_bs": 16,
+    "grad_accum": 1,
+    "warmup_ratio": 0.1,
+    "early_stopping_patience": 2,
+    "class_weight_mode": "sqrt_inv",
+    "label_smoothing": 0.03
+  }
+}

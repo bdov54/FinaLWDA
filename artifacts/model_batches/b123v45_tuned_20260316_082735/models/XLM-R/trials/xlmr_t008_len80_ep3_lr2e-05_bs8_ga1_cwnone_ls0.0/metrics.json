@@ -1,0 +1,13 @@
+{
+  "test_accuracy": 0.835821,
+  "test_precision_macro": 0.76584,
+  "test_recall_macro": 0.711166,
+  "test_f1_macro": 0.731604,
+  "test_precision_weighted": 0.824286,
+  "test_recall_weighted": 0.835821,
+  "test_f1_weighted": 0.82646,
+  "test_runtime": 0.9886,
+  "test_samples_per_second": 542.154,
+  "test_steps_per_second": 34.39,
+  "threshold_used": 0.62
+}

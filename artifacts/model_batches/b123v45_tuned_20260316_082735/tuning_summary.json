@@ -1,0 +1,22 @@
+[
+  {
+    "display_name": "mBERT",
+    "model_name": "bert-base-multilingual-cased",
+    "best_trial_name": "mbert_t011_len80_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+    "best_val_f1_macro": 0.798873,
+    "best_threshold": 0.36,
+    "test_f1_macro": 0.668968,
+    "n_trials": 12,
+    "best_config_json": "{\"max_len\": 80, \"lr\": 1e-05, \"epochs\": 5, \"train_bs\": 8, \"eval_bs\": 16, \"grad_accum\": 1, \"warmup_ratio\": 0.1, \"early_stopping_patience\": 2, \"class_weight_mode\": \"sqrt_inv\", \"label_smoothing\": 0.03}"
+  },
+  {
+    "display_name": "XLM-R",
+    "model_name": "xlm-roberta-base",
+    "best_trial_name": "xlmr_t009_len64_ep5_lr1e-05_bs8_ga1_cwsqrt_inv_ls0.03",
+    "best_val_f1_macro": 0.83387,
+    "best_threshold": 0.5,
+    "test_f1_macro": 0.708851,
+    "n_trials": 12,
+    "best_config_json": "{\"max_len\": 64, \"lr\": 1e-05, \"epochs\": 5, \"train_bs\": 8, \"eval_bs\": 16, \"grad_accum\": 1, \"warmup_ratio\": 0.1, \"early_stopping_patience\": 2, \"class_weight_mode\": \"sqrt_inv\", \"label_smoothing\": 0.03}"
+  }
+]

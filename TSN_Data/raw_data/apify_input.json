@@ -1,0 +1,11 @@
+{
+  "startUrls": [
+    {
+      "url": "https://maps.app.goo.gl/U93yTLtq4JJETAo19"
+    }
+  ],
+  "maxReviews": 10000,
+  "reviewsSort": "newest",
+  "reviewsOrigin": "all",
+  "personalData": false
+}

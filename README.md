@@ -1,0 +1,1 @@
+Lệnh test connection với atlas: .\.venv\Scripts\python.exe -c "import os; from dotenv import load_dotenv; load_dotenv(); from pymongo import MongoClient; c=MongoClient(os.getenv('MONGODB_URI'), serverSelectionTimeoutMS=10000); c.admin.command('ping'); print('✅ Connected to Atlas OK')"

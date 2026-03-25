@@ -1,0 +1,46 @@
+{
+  "label_mode": "binary_123_vs_45",
+  "output_collection": "processed_data_binary_123vs45_v1",
+  "single_aspect_only": true,
+  "rows": 3660,
+  "stats": {
+    "reviews_seen": 4631,
+    "sentences_total": 13234,
+    "sentences_multi_aspect": 1779,
+    "sentences_unmatched": 7795,
+    "sentences_single_aspect": 3660,
+    "rows_created": 3660
+  },
+  "label_dist": {
+    "positive": 825,
+    "negative": 2835
+  },
+  "aspect_dist_top20": {
+    "checkin_boarding": 626,
+    "immigration_customs": 607,
+    "staff_service": 555,
+    "queue_waiting": 508,
+    "transport_parking": 349,
+    "cleanliness_toilets": 206,
+    "security_check": 180,
+    "food_beverage": 159,
+    "price_value": 157,
+    "baggage": 143,
+    "signage_information": 93,
+    "wifi_internet": 77
+  },
+  "lang_dist": {
+    "vi": 961,
+    "en": 2525,
+    "de": 62,
+    "fr": 47,
+    "ja": 5,
+    "it": 18,
+    "id": 18,
+    "th": 3,
+    "ko": 4,
+    "es": 14,
+    "ru": 3
+  },
+  "created_at": "2026-03-08T01:18:53.228534+00:00"
+}
