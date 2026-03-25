@@ -17,3 +17,5 @@ torch>=2.2.0
 matplotlib==3.9.2
 
 google-genai
+plotly
+streamlit
